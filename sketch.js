@@ -75,8 +75,7 @@ function draw(){
     gameState=end;
    }
    if(gameState===end){
-    ball.velocity=0;
-    basketball.velocity=0;
+
     ball.visible=false;
     basketball.visible=false;
     player.visible=false;
